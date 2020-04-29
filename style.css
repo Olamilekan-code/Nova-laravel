@@ -3,6 +3,8 @@ html {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   line-height: 1.15;
+  margin-right: 185px;
+  margin-left: 185px;
 }
 header {
   padding-top: 24px;
@@ -23,4 +25,22 @@ li {
 }
 .section-1 {
   align-items: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 7rem 0;
+}
+.container-flex-item1 {
+  width: 50%;
+  display: block;
+  padding-top: 0%;
+  margin-right: 2.5rem;
+  flex-basis: 45%;
+}
+.container-flex-item2 {
+  width: 50%;
+  flex-basis: 43%;
 }
