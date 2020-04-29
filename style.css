@@ -1,0 +1,26 @@
+html {
+  font-family: Nunito, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  line-height: 1.15;
+}
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0%;
+  box-sizing: inherit;
+}
+li {
+  margin-right: 40px;
+}
+.section-1 {
+  align-items: center;
+}
