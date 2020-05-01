@@ -102,4 +102,28 @@ li {
   max-width: 100%;
   height: auto;
   margin-top: -175px;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+.section2-p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+.section2-feaures {
+  display: flex;
+}
+.section2-feaures-1 {
+  align-items: flex-start;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.section2-feaures-2 {
+  align-items: flex-start;
+}
+.section2-feaures-3 {
+  align-items: flex-start;
 }
