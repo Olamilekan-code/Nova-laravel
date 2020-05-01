@@ -5,6 +5,7 @@ html {
   line-height: 1.15;
   margin-right: 185px;
   margin-left: 185px;
+  border: 0 solid currentColor;
 }
 header {
   padding-top: 24px;
@@ -25,13 +26,16 @@ li {
 }
 .section-1 {
   align-items: center;
+  padding-bottom: calc(4rem + 175px);
 }
 .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 7rem 0;
+  box-sizing: inherit;
+  flex: 1;
 }
 .container-flex-item1 {
   width: 50%;
@@ -76,4 +80,26 @@ li {
   color: #4099de;
   height: 3rem;
   flex-shrink: 0;
+}
+.section1-Header {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: left;
+  color: #26425f;
+}
+.section1-p {
+  display: block;
+  line-height: 1.5em;
+}
+.section-2 {
+  background-color: #26425f;
+}
+.img-section {
+  display: block;
+  width: 100%;
+}
+.section2-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -175px;
 }
