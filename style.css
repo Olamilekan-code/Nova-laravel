@@ -97,13 +97,15 @@ li {
 .img-section {
   display: block;
   width: 100%;
+  align-items: center;
 }
 .section2-img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-top: -175px;
   border-style: solid;
   border-radius: 0.5rem;
+  align-items: center;
 }
 .section2-p {
   color: #ffffff;
@@ -115,15 +117,43 @@ li {
 }
 .section2-feaures {
   display: flex;
+  justify-content: space-evenly;
 }
 .section2-feaures-1 {
   align-items: flex-start;
   padding-right: 1rem;
   padding-left: 1rem;
+  flex-basis: 33.33%;
 }
 .section2-feaures-2 {
   align-items: flex-start;
+  flex-basis: 33.33%;
+  padding-right: 1rem;
 }
 .section2-feaures-3 {
   align-items: flex-start;
+  flex-basis: 33.33%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.features-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.12rem;
+}
+.features-svg1 {
+  width: 48;
+  overflow: hidden;
+}
+.features-svg2 {
+  width: 48;
+  overflow: hidden;
+}
+.features-svg3 {
+  width: 48;
+  overflow: hidden;
+}
+.features-p {
+  color: #aaf1ff;
+  line-height: 1.5;
 }
