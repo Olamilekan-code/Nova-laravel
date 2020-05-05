@@ -100,12 +100,11 @@ li {
   align-items: center;
 }
 .section2-img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   margin-top: -175px;
   border-style: solid;
   border-radius: 0.5rem;
-  align-items: center;
 }
 .section2-p {
   color: #ffffff;
@@ -156,4 +155,28 @@ li {
 .features-p {
   color: #aaf1ff;
   line-height: 1.5;
+}
+.section3 {
+  display: block;
+  padding-right: 2.5rem;
+  padding: 2.5rem;
+}
+.section3-features {
+  display: block;
+
+  padding-top: 5rem;
+}
+.section-3-features {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+.section-3-features-1 {
+  width: 50%;
+}
+.flex-no-shrink {
+  flex-shrink: 0;
+  margin-right: 2rem;
+  overflow: hidden;
 }
