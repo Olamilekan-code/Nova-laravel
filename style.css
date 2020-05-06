@@ -91,7 +91,7 @@ li {
   display: block;
   line-height: 1.5em;
 }
-.section-2 {
+.section2 {
   background-color: #26425f;
 }
 .img-section {
@@ -179,4 +179,13 @@ li {
   flex-shrink: 0;
   margin-right: 2rem;
   overflow: hidden;
+}
+.sec3-features {
+  display: flex;
+  padding-right: 1.5rem;
+}
+#sec3-hd {
+  margin-top: 0;
+  margin-bottom: auto;
+  padding-top: 0.3rem;
 }
