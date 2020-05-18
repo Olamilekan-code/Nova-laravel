@@ -3,16 +3,21 @@ html {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   line-height: 1.15;
-  margin-right: 185px;
-  margin-left: 185px;
+
   border: 0 solid currentColor;
 }
 header {
+  display: flex;
+  flex-direction: row;
   padding-top: 24px;
   padding-bottom: 24px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 960px;
 }
-ul {
+.nav-bar {
   list-style-type: none;
   float: right;
   display: flex;
@@ -20,13 +25,16 @@ ul {
   align-items: center;
   padding: 0%;
   box-sizing: inherit;
+  margin-left: auto;
 }
-li {
+#nav-bar-items {
   margin-right: 40px;
 }
 .section-1 {
   align-items: center;
   padding-bottom: calc(4rem + 175px);
+  margin-right: auto;
+  margin-left: auto;
 }
 .container {
   width: 100%;
@@ -47,6 +55,11 @@ li {
 .container-flex-item2 {
   width: 50%;
   flex-basis: 43%;
+}
+.section-1 {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section1-btn {
   display: flex;
@@ -91,8 +104,15 @@ li {
   display: block;
   line-height: 1.5em;
 }
-.section2 {
+.section-2 {
   background-color: #26425f;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
 }
 .img-section {
   display: block;
@@ -160,6 +180,9 @@ li {
   display: block;
   padding-right: 2.5rem;
   padding: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
 }
 .section3-features {
   display: block;
@@ -206,11 +229,20 @@ li {
   height: 6rem;
   width: 6rem;
   margin-bottom: 2.5rem;
+  position: relative;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -135rem;
+  max-width: 960px;
 }
 .section-4 {
   background-image: linear-gradient(135deg, #2891c4, #125b93);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-bottom: 190px;
+  margin-bottom: -190px;
 }
 .section-4-text {
   text-align: center;
@@ -232,4 +264,133 @@ li {
   align-items: center;
   justify-content: center;
   letter-spacing: 0.05rem;
+}
+.svg-di {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.section-5 {
+  margin-bottom: 5rem;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+.section5-cd {
+  width: 100%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: inherit;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.section5-cards {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  margin-right: 2.5rem;
+  background-color: #fff;
+  box-sizing: inherit;
+  width: auto;
+}
+.section5-cards-2 {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  background-color: #fff;
+  box-sizing: inherit;
+  width: auto;
+}
+.section5-card {
+  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-sizing: inherit;
+}
+#section5-h4 {
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: #4a90e2;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+#section5-p {
+  vertical-align: text-top;
+  margin-bottom: 1rem;
+}
+#doll {
+  color: #8a97a2;
+  font-size: 1.875rem;
+  font-weight: 300;
+  top: -0.5rem;
+  line-height: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+#title {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(32, 44, 58);
+}
+#fig {
+  font-size: 3.75rem;
+  color: rgb(32, 44, 58);
+}
+.list-title {
+  list-style: none;
+  color: #26425f;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0%;
+}
+#lists {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  text-align: -webkit-match-parent;
+}
+.get-strt {
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(64, 153, 222);
+  height: 4.5rem;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 249, 251);
+}
+.card-svg {
+  overflow: hidden;
+  fill: #4099de;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+.faq {
+  text-align: center;
+  color: #202c3a;
+}
+.faq-link {
+  text-decoration: none;
+  color: #4099de;
+}
+.foot-text-1 {
+  text-align: center;
+  color: #56677b;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.5;
+}
+.foot-text-link {
+  text-align: center;
+  color: #4099de;
+  text-decoration: none;
+  padding-top: 0.75rem;
 }
